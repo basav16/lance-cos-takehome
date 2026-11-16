@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lance CoS Take-Home</title>
+<meta name="description" content="Chief of Staff take-home for Lance by Basav Sharma: two decks, three live apps, the workbook and an optional agent.">
+<link rel="icon" href="assets/lance-mark.png">
+<link rel="stylesheet" href="investor-dashboard/fonts.css">
+<style>
+:root{--stone:#F7F6F3;--card:#FFFFFF;--ink:#121210;--muted:#5E5B53;--line:#E3E0D8;--mint:#2BCA95;--green:#0F7A55;--forest:#09281E;--soft:#8C887E}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--stone);color:var(--ink);font:400 17px/1.5 'LanceSans','Hanken Grotesk',system-ui,sans-serif}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:40px 24px 64px}
+header.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding-bottom:28px;border-bottom:1px solid var(--line)}
+header.top img{height:26px;width:auto;display:block}
+header.top .who{font-size:15px;color:var(--muted)}
+.hero{padding:44px 0 36px}
+.hero h1{font:300 clamp(40px,6vw,68px)/1.04 'LanceSerif','Newsreader',Georgia,serif;letter-spacing:-.01em}
+.hero h1 .soft{color:var(--soft)}
+.hero p{margin-top:18px;max-width:700px;font-size:19px;color:var(--muted)}
+.hero p b{color:var(--ink);font-weight:600}
+h2{font:400 30px/1.15 'LanceSerif','Newsreader',Georgia,serif;margin:40px 0 6px}
+h2 .soft{color:var(--soft)}
+.lede{color:var(--muted);margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{display:flex;flex-direction:column;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;text-decoration:none;transition:border-color .15s,transform .15s}
+a.card:hover{border-color:var(--green);transform:translateY(-1px)}
+a.card:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.card .k{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--green)}
+.card .k .n{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--forest);color:var(--stone);font-size:12px;letter-spacing:0}
+.card h3{font:400 25px/1.15 'LanceSerif','Newsreader',Georgia,serif}
+.card p{color:var(--muted);font-size:16px}
+.card .go{margin-top:auto;padding-top:6px;font-weight:600;color:var(--green)}
+.card.dark{background:var(--forest);border-color:var(--forest);color:var(--stone)}
+.card.dark p{color:#C9D6CF}
+.card.dark .k{color:var(--mint)}
+.card.dark .k .n{background:var(--mint);color:var(--forest)}
+.card.dark .go{color:var(--mint)}
+.card.extra{border-style:dashed}
+.pill{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.02em;border-radius:999px;padding:2px 9px;background:#EDEBE5;color:var(--muted);text-transform:none}
+.links{display:flex;gap:16px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.links a{font-weight:600;color:var(--green);text-decoration:none}
+.links a:hover{text-decoration:underline}
+.note{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);font-size:15px;color:var(--muted);display:grid;gap:8px}
+.note b{color:var(--ink);font-weight:600}
+@media (max-width:560px){.wrap{padding:28px 16px 48px}.hero{padding:32px 0 24px}.hero p{font-size:17px}h2{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><img src="assets/lance-logo.png" alt="Lance"><span class="who">Chief of Staff take-home · Basav Sharma · November 2026</span></header>
+
+<section class="hero">
+<h1>Monday, 9:00 AM. <span class="soft">Seven fires, two projects due Friday.</span></h1>
+<p>Everything I made for the take-home, in one place. <b>Start with the thinking deck</b>; it links to each app and file below. The apps are live and run on sample data.</p>
+</section>
+
+<h2>The decks <span class="soft">· start here</span></h2>
+<p class="lede">PDFs. Links inside each deck open the live apps.</p>
+<div class="grid">
+<a class="card dark" href="decks/Lance_CoS_Thinking_Deck_Basav_Sharma.pdf"><span class="k"><span class="n">1</span>Thinking deck · 18 slides</span><h3>How I run the week and build the two projects</h3><p>Part 1, the week from Monday 9 AM. Part 2, the onboarding plan and the investor update. Part 3, the short-term and long-term fix for each fire. Appendix A to E has one card per tool.</p><span class="go">Open the PDF</span></a>
+<a class="card" href="decks/Lance_Q3_2026_Investor_Update.pdf"><span class="k"><span class="n">2</span>Part 2B · 13 slides</span><h3>Q3 2026 investor update</h3><p>The deck that goes to existing investors with the CEO’s email: results against the July plan, Q4 priorities and three priority introductions.</p><span class="go">Open the PDF</span></a>
+</div>
+
+<h2>Live apps <span class="soft">· sample data</span></h2>
+<p class="lede">Each opens with a short quick tour. At Lance they would sit on Lance’s own domain, behind work-email sign-in.</p>
+<div class="grid">
+<a class="card" href="week-calendar/"><span class="k"><span class="n">3</span>Part 1</span><h3>Week calendar</h3><p>My week, Monday to Friday. Every block shows what I do, what I send and why, with each email and Slack drafted and waiting for approval.</p><span class="go">Open the app</span></a>
+<a class="card" href="onboarding-hub/"><span class="k"><span class="n">4</span>Part 2A</span><h3>Onboarding Hub</h3><p>8 hires in 3 weeks, about 26 tasks each, 5 owners. Tick tasks, add a hire, and see who is ready for Day 1.</p><span class="go">Open the app</span></a>
+<a class="card" href="investor-dashboard/"><span class="k"><span class="n">5</span>Part 2B</span><h3>Investor dashboard</h3><p>The same figures as the investor deck, live: ARR, hotels, contracted backlog, cash, runway and July goals against results.</p><span class="go">Open the dashboard</span></a>
+</div>
+
+<h2>Files</h2>
+<p class="lede">The workbook behind the apps, plus one optional extra.</p>
+<div class="grid">
+<a class="card" href="files/Lance_CoS_Workbook_Basav_Sharma.xlsx"><span class="k"><span class="n">6</span>Excel or Google Sheets</span><h3>CoS workbook</h3><p>The one file behind everything: 18 tabs for the inbox, calendar blocks, messages, hires, tasks and investor numbers, with 101 live formulas.</p><span class="go">Download .xlsx</span></a>
+<div class="card extra"><span class="k"><span class="n">7</span>Extra <span class="pill">optional</span></span><h3>CoS agent and plug-in kits</h3><p>A Claude agent that drafts, never sends, my daily loop, plus the Google Sheets kits that make both apps live for the whole team. The week runs without them.</p><div class="links"><a href="files/Lance_CoS_Agent_and_Kits_Basav_Sharma.zip">Download .zip</a><a href="https://github.com/basav16/lance-cos-takehome/tree/main/source">Browse the code</a></div></div>
+</div>
+
+<div class="note">
+<p><b>About the numbers.</b> Lance’s internal figures aren’t public, so the investor numbers are my estimates, marked *, until finance confirms. Customer quotes are word for word from Lance’s published customer stories.</p>
+<p><b>Ticks and edits.</b> In these demos, ticks save in your browser. Plugged into the Google Sheet with the kit, every tick and approval is shared live with the team.</p>
+</div>
+</div>
+</body>
+</html>

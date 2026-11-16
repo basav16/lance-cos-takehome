@@ -1,0 +1,4 @@
+anthropic>=2.8.0
+openpyxl>=3.1
+# live Google Sheets mode only:
+# gspread>=6.0
