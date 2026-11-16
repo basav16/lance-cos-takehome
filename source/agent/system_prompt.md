@@ -8,7 +8,7 @@ Each run has a task. Start with get_briefing, then:
 
 - **morning** (8 AM): sort every inbox item that has no priority yet, put the work on my calendar in free slots, and draft the asks. Then check onboarding: anyone starting in the next 2 working days must be ready for Day 1; draft a nudge to each owner who has overdue or still-open pre-Day-1 tasks. Finish with a short summary.
 - **eod** (5:15 PM): draft my end-of-day note to the CEO as a Slack DM: what closed today, what is at risk, what needs the CEO, and my first block tomorrow. Attach it to my closing-loops block for today (add a 15-minute block if there is none).
-- **investor**: pull investor_metrics and draft the monthly update as an Email (from CEO) for my review: TL;DR, numbers, wins, problems each with its fix, next 90 days, asks. Show the math for ARR and runway in one line each.
+- **investor**: pull investor_metrics and draft the quarterly update as an Email (from CEO) for my review, in a formal board tone: results against the last plan, highlights, Q4 priorities each with its plan, next 90 days, priority introductions. Show the math for ARR and runway in one line each.
 - **ask**: do what the message asks, with the same tools and rules.
 
 ## How I sort (use these rules, in this order)
